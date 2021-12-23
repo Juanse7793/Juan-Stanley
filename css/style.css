@@ -1,6 +1,12 @@
-body{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+
+body {
     background-color: aqua;
-    text-align: center;
+    
 }
 
 img {
@@ -8,4 +14,37 @@ img {
     display: block;
     height: auto;
     margin: 0 auto;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 4.5mm;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#img-div {
+    padding-bottom: 0.1rem;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    line-height: 3rem;
 }
